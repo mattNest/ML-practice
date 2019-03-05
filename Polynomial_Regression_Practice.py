@@ -58,7 +58,7 @@ plt.show()
 
 
 # Visualizing the Polynomial Regression results
-X_grid = np.arange(min(X),max(X),0.1)
+X_grid = np.arange(min(X),max(X),0.1) # for higher resolution and smoother curve
 X_grid = X_grid.reshape((len(X_grid)),1)
 
 plt.scatter(X,y,color='red')
